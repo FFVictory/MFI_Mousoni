@@ -10,6 +10,17 @@ public class Client {
     Date date_of_birth;
     int status;
     String fullname;
+    int id;
+
+    public int GetID()
+    {
+        return id;
+    }
+
+    public void SetID(int id)
+    {
+        this.id = id;
+    }
 
     public Date GetDOB()
     {
