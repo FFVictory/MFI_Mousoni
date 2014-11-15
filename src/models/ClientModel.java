@@ -21,9 +21,9 @@ public class ClientModel {
         Client cl1 = new Client();
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            connect = DriverManager.getConnection("jdbc:mysql://silva.computing.dundee.ac.uk:3306?"
-                    + "user=14ac3u32&password=cab123");
-            preparedStatement = connect.prepareStatement("select password from 14ac3d32.staffmember where staffId = ?;");
+            connect = DriverManager.getConnection("jdbc:mysql://musoni.c4leprqodag9.eu-west-1.rds.amazonaws.com:3306?"
+                    + "user=student&password=cfg2014!");
+            preparedStatement = connect.prepareStatement("select * from musoni.m_client where id = ?;");
             preparedStatement.setInt(1, Id);
             resultSet = preparedStatement.executeQuery();
 
