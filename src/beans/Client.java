@@ -39,7 +39,7 @@ public class Client {
 
     public void setDob(Date dateOfBirth)
     {
-        this.dateOfBirth = DdateOfBirthOB;
+        this.dateOfBirth = dateOfBirthOB;
     }
 
     public void setStatus(int status)
