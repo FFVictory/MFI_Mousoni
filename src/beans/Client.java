@@ -7,51 +7,49 @@ import java.util.Date;
  */
 public class Client {
 
-    Date date_of_birth;
+    Date dateOfBirth;
     int status;
-    String fullname;
+    String fullName;
     int id;
 
-    public int GetID()
+    public int getId()
     {
         return id;
     }
 
-    public void SetID(int id)
+    public void setId(int id)
     {
         this.id = id;
     }
 
-    public Date GetDOB()
+    public Date getDob()
     {
-        return date_of_birth;
+        return dateOfBirth;
     }
 
-    public int GetStatus()
+    public int getStatus()
     {
         return status;
     }
 
-    public String GetFullname()
+    public String getFullName()
     {
-        return fullname;
+        return fullName;
     }
 
-    public void SetDOB(Date DOB)
+    public void setDob(Date dateOfBirth)
     {
-        this.date_of_birth = DOB;
+        this.dateOfBirth = DdateOfBirthOB;
     }
 
-    public void SetStatus(int status)
+    public void setStatus(int status)
     {
         this.status = status;
     }
 
-    public void SetFullName(String fullname)
+    public void setFullName(String fullName)
     {
-        this.fullname = fullname;
+        this.fullName = fullName;
     }
-
-
 
 }
