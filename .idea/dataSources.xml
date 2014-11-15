@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="876561100">
+    <data-source source="LOCAL" name="MySQL - musoni@musoni.c4leprqodag9.eu-west-1.rds.amazonaws.com" uuid="954d0c53-859e-4af6-9c76-51998b702930">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://musoni.c4leprqodag9.eu-west-1.rds.amazonaws.com:3306/musoni</jdbc-url>
+      <user-name>student</user-name>
+      <user-password>dfc9dfccdfcddf98df9adf9bdf9edf8b</user-password>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
